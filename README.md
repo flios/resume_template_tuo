@@ -2,7 +2,9 @@
 This repo is a Resume Template for Chinese. Tuo is my cat and he is glad to help me to show how to use this template. 
 Thanks Tuo. 
 
-Good luck for all who is looking for jobs. 
+![tuo](Chinese/photo.png)
+
+Good luck to all who is looking for jobs. 
 
 ## Filesystem Structure
 * `resume.cls`
