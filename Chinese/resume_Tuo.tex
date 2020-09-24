@@ -1,0 +1,35 @@
+
+\LoadClass[11pt,a4paper]{article}
+\documentclass{../resume} % Use the custom resume.cls style
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+
+\begin{document}
+% \setCJKmainfont{SimSun}
+\input{../description/header}
+
+\input{../description/photo}
+\begin{rSection}{教育背景}
+\item \input{../description/edu_2}
+\item \input{../description/edu_1}
+\item \input{../description/edu_0}
+\item \input{../description/edu_prize}
+\end{rSection}
+
+\begin {rSection}{职业经历}
+\item \subimport*{../exp/exp1/}{proj_exp1_1.tex}
+\item \subimport*{../exp/exp2/}{proj_exp2_1.tex}
+\end{rSection}
+
+\begin {rSection}{项目经历}
+\item \subimport*{../exp/exp3/}{proj_exp3_1.tex}
+\item \subimport*{../exp/exp4/}{proj_exp4_1.tex}
+\end {rSection}
+
+\begin{rSection}{技能}
+\item \input{../description/skills.tex}
+\end{rSection}
+
+\end{document} 
